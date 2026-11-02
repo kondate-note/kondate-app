@@ -1,0 +1,6 @@
+node_modules/
+test-results/
+playwright-report/
+*.kondate
+.DS_Store
+Thumbs.db
