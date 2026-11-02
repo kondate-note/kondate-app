@@ -57,7 +57,12 @@
   - [x] 見つけて直した: Service Worker を初めて入れたときに画面が勝手に再読み込みされていた（入力中の内容が消える）→ ボタンを押したときだけに
   - [x] README.md・RECOVERY.md
   - [x] アイコンを利用者が用意したクマの画像に変更（角丸の外側を背景色で埋めた正方形。Android 用は周りに余白を足した icon-maskable-512.png）。sw.js の VERSION を kondate-v2 に
-  - [ ] GitHub への公開（Organization名・gitの名前とメールを利用者と決める）
+  - [x] GitHub への公開（2026-11-03）
+    - リポジトリ: https://github.com/kondate-note/kondate-app （専用Organization `kondate-note`、公開）
+    - 公開URL: https://kondate-note.github.io/kondate-app/ （main ブランチの直下を配信）
+    - secret scanning と push protection を有効化
+    - 公開URLで確認済み: 表示・エラーなし・Service Worker 有効・オフライン用に34ファイル保存
+  - [ ] Gemini キーの「使えるサイト」に公開URLを追加（利用者が Google Cloud の画面で）
   - [ ] 実機チェック（下のリスト）
 
 ## 実機チェックリスト（公開後に利用者のスマホで）
