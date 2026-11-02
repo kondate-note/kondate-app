@@ -1,6 +1,6 @@
 // Service Worker: 一度開けばオフラインでも動くようにする（AI相談以外）
 // ファイルを変えたら VERSION を上げる（上げないと利用者のスマホが古いままになる）
-const VERSION = "kondate-v2";
+const VERSION = "kondate-v3";
 
 // アプリのファイル一覧（tests/unit/sw.test.js で、実際のファイルと一致しているか確かめる）
 const ASSETS = [

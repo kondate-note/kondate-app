@@ -6,8 +6,8 @@ import { GENRES, TOOLS } from "../../js/data/genres.js";
 import { mainIngredients } from "../../js/lib/match.js";
 import { scaleText } from "../../js/lib/scale.js";
 
-// いまの段階の目標品数（100品にするときに書きかえる）
-const TARGET = { pasta: 4, don: 4, meat: 5, fish: 3, noodle: 4, western: 3, chinese: 3, soup: 2, side: 2 };
+// ジャンルごとの品数（合計100品）
+const TARGET = { pasta: 15, don: 15, meat: 15, fish: 10, noodle: 12, western: 10, chinese: 10, soup: 8, side: 5 };
 const FORBIDDEN = /オーブン|トースター|グリル|魚焼き/;
 
 test("ジャンルごとの品数", () => {
